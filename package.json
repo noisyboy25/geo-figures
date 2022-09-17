@@ -1,18 +1,19 @@
 {
-  "name": "geo-figures",
+  "name": "@noisyboy25/geo-figures",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "description": "Example TS library for geometric figures",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
-    "/dist"
+    "/lib"
   ],
   "scripts": {
     "build": "tsc",
     "test": "mocha",
-    "docs": "typedoc src/index.ts"
+    "docs": "typedoc src/index.ts",
+    "prepublish": "npm run build"
   },
-  "author": "",
+  "author": "Andrey Yudin",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
