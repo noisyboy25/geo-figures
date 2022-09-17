@@ -1,6 +1,6 @@
 # geo-figures
 
-![npm (scoped)](https://img.shields.io/npm/v/@noisyboy25/geo-figures)
+[![npm (scoped)](https://img.shields.io/npm/v/@noisyboy25/geo-figures)](https://www.npmjs.com/package/@noisyboy25/geo-figures)
 
 Example TS library for geometric figures
 
